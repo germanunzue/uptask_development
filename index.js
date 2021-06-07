@@ -8,6 +8,7 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const passport = require('./config/passport');
 
+//cargo el archivo de configuracion
 require('dotenv').config({
     path: 'variables.env'
 })
